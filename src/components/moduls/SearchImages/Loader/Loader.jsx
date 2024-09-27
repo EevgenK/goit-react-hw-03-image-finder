@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { MagnifyingGlass } from 'react-loader-spinner';
 import styles from './loader.module.scss';
 const Loader = ({ message }) => {
@@ -18,3 +19,6 @@ const Loader = ({ message }) => {
   );
 };
 export default Loader;
+Loader.propTypes = {
+  message: PropTypes.string.isRequired,
+};

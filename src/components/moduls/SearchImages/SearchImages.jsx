@@ -9,7 +9,7 @@ import Modal from './Modal/Modal';
 
 import { getGallery } from 'helpers/api/pixabay/getGallery';
 import styles from './search-images.module.scss';
-import ErrorCard from '../sahred/ErrorCard/ErrorCard';
+import ErrorCard from '../../sahred/ErrorCard/ErrorCard';
 
 class SerchImages extends Component {
   state = {
